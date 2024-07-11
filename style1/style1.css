@@ -1,0 +1,282 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header{
+    background-color: #fff;
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+header{
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    background-image: url("./Hero-bg.png");
+    background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+header.profile-img{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    
+}
+header h1{
+    margin: 1rem,0;
+    font-size: 1.5 rem;
+    color: #333;
+}
+header p{
+    font-size: 16px;
+    color: #555;
+}
+header button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+.why-web-development {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-web-development h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.why-web-development p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.right_side{
+    width: 65%;
+    height: auto;
+    
+    float: right;
+    padding: 20px 30px;
+    margin-left: 30px;
+
+}
+.left_side{
+    width: 30%;
+    height: auto;
+    
+    
+    float: left;
+
+}
+
+.card img {
+    max-width: 100px;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.card-content {
+    flex: 1;
+    text-align: left;
+    align-items: center; 
+    
+}
+
+.card-content h3 {
+    margin: 0 ;
+    font-size: 1.2rem;
+    align-items: start;
+}
+
+.card-content p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    align-items: start;
+}
+
+.card-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:white;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #0056b3;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 810px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.video-content {
+    
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    max-width: 50%;
+    height: auto;
+    
+}
+.card-content{
+    
+    flex-direction: row;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.card-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.target {
+    display: flex;
+    justify-content: space-around;
+}
+
+.target .card-content {
+    flex: 1;
+    margin: 0 1rem;
+}
+.container-c{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-contain img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+     border-radius: 8px;
+
+}
+.card-container-1{
+    flex: 1;
+    
+}
+.card-container-1 h3{
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+.card-container-1 p{
+    margin-bottom: 0;
+    color: #666;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+}
+.background-div{
+    width: 1140px;
+    height: 315px;
+    margin: 80px 0px 30px 0px;
+    background-image: url("./handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.container-d{
+    text-align: center;
+    
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    font-size: small;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.container-d button{
+    padding: 10px 20px;
+    font-size: small;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.container-d button:hover {
+    background-color:white;
+}
